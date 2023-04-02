@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+}
+.container{
+    width: 992px;
+    margin: auto;
+}
+.n-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.n-menu a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2d3950;
+}
