@@ -51,6 +51,18 @@
 }
 
 /* simple  */
+.simple-content{
+    padding: 50px 0px;
+}
 .simple-content>p{
     color: #999999;
+}
+.simple{
+    background-color: #f6f9f9;
+}
+@media screen and (max-width:576px) {
+    .card-m{
+        margin-bottom: 20px !important;
+    }
+    
 }
