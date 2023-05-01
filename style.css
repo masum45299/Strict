@@ -178,3 +178,29 @@ form>:nth-of-type(3)
     transition: .3s;
 }
 
+/* footer */
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 20px 0px;
+}
+
+.f-i-flex{
+    display: flex;
+    align-items: center;
+}
+
+.f-i-flex>.f-i{
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: #15a4fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-i>i{
+    color: white;
+}
+
